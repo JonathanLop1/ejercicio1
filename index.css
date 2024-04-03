@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px;
+
+    height: 890px;
+    background-color: #050303d2;
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    gap: 20px;
+    background-color: #ffffff00;
+}
+#nombre,#apellido{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+    padding: 0px 20px;
+    font-weight: bold;
+    box-shadow: 0px 20px 20px 0px #fff;
+    border: solid 3px;
+}
+#boton{
+    background-color: #0004ff;
+    box-shadow: 0px 20px 20px 0px #0004ff;
+    padding: 10px;
+    height: 100%;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+#contenedor{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: #db0303;
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
